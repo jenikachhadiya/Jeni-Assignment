@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/action_task"
+        android:title="Home"
+        android:icon="@drawable/home_selector"/>
+    <item
+        android:id="@+id/action_services"
+        android:title="Services"
+        android:icon="@drawable/services_selector"/>
+    <item
+        android:id="@+id/action_budget"
+        android:title="Budget"
+        android:icon="@drawable/budget_selector"/>
+    <item
+        android:id="@+id/action_chat"
+        android:title="Chat"
+        android:icon="@drawable/chat_selector"/>
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_selector"/>
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/action_settings"-->
+<!--        android:title="Settings"-->
+<!--        android:icon="@drawable/setting_selector"/>-->
+
+
+</menu>

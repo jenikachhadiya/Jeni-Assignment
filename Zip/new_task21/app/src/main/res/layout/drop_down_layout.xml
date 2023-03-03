@@ -1,0 +1,10 @@
+<TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="female"
+    android:textColor="@color/black"
+    android:textSize="18sp"
+    android:textStyle="bold" />

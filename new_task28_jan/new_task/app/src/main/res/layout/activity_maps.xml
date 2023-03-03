@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.MapsActivity">
+
+    </fragment>
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_margin="@dimen/_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        map:iconifiedByDefault="false"
+        android:background="@color/sendbar"
+        map:queryHint="@string/type_something"/>
+
+    <ImageView
+        android:id="@+id/tv_map"
+        android:layout_width="@dimen/_70"
+        android:layout_height="@dimen/_70"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_200d"
+        android:src="@drawable/ic_sharp_flag_24"
+        android:textColor="@color/background"
+        android:textSize="@dimen/_17"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>

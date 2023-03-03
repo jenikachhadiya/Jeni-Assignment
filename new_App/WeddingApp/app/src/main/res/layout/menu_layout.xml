@@ -1,0 +1,189 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_7dp"
+    app:cardElevation="@dimen/_3dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/inner_bold"
+                android:maxLines="2"
+                android:paddingTop="@dimen/_3dp"
+                android:text="@string/kaju_paneer_sabji"
+                android:textColor="@color/name_text"
+                app:layout_constraintStart_toEndOf="@+id/iv_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="@string/_10"
+                android:textColor="@color/name_text"
+                app:layout_constraintStart_toEndOf="@+id/iv_image"
+                app:layout_constraintTop_toBottomOf="@+id/tv_menu" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="2"
+                android:text="@string/_Pizza_desc"
+                android:textColor="@color/hotel_desc"
+                android:textSize="@dimen/_12sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="qty : 1 kg"
+                android:textColor="@color/name_text"
+                app:layout_constraintStart_toEndOf="@+id/iv_image"
+                app:layout_constraintTop_toBottomOf="@+id/tv_menu" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_13dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/tv_rating"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:progressTint="#E3CF2A"
+                    android:rating="2" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/_2_5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/_10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kaju_images"
+                app:shapeAppearance="@style/Round_image" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="100dp"
+                android:layout_height="@dimen/_35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="@dimen/_3dp"
+                android:background="@drawable/add_shape">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_add"
+                    android:layout_width="@dimen/_83dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_mediu"
+                    android:padding="@dimen/_2dp"
+                    android:text="@string/add"
+                    android:textAlignment="center"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/_14sp"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/layout_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/tvDecrement"
+                        android:layout_width="@dimen/_20dp"
+                        android:layout_height="@dimen/_25dp"
+                        android:foreground="?selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_baseline_remove_24"
+                        app:tint="@color/green" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tv_conuting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:text="0"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/_17sp" />
+
+                    <ImageView
+                        android:id="@+id/tv_increment"
+                        android:layout_width="@dimen/_20dp"
+                        android:layout_height="@dimen/_25dp"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:foreground="?selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_baseline_add_24"
+                        app:tint="@color/green" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

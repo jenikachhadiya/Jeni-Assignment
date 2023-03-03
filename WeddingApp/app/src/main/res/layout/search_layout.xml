@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_10dp"
+    app:cardUseCompatPadding="true"
+    app:strokeColor="#DADADA"
+    app:strokeWidth="@dimen/_1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_profile_image"
+            android:layout_width="@dimen/_45dp"
+            android:layout_height="@dimen/_45dp"
+            android:layout_marginStart="@dimen/_9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ktv_image" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:fontFamily="@font/inter_semibold"
+            android:text="KTV Films"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintStart_toEndOf="@+id/iv_profile_image"
+            app:layout_constraintTop_toTopOf="@+id/iv_profile_image" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_6dp"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="Out best price 10,000 for you"
+            android:textColor="@color/message_text"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+        <ImageView
+            android:id="@+id/tv_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_14dp"
+            android:layout_marginEnd="@dimen/_28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_dot_image" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_minit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_9dp"
+            android:layout_marginEnd="@dimen/_28dp"
+            android:text="2 Min ago"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dot" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

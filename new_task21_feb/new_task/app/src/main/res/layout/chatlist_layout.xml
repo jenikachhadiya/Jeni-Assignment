@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_5"
+    app:cardElevation="@dimen/_3"
+    android:padding="@dimen/_3"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:padding="@dimen/_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_5"
+            app:cardElevation="@dimen/_5"
+            app:cardUseCompatPadding="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_image"
+                android:layout_width="@dimen/_50"
+                android:layout_height="@dimen/_50"
+                android:src="@drawable/img"
+                android:scaleType="centerCrop"
+                app:civ_border_width="@dimen/_1"
+                app:civ_circle_background_color="@color/white_tra"
+                app:civ_border_color="@color/gry_tra" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_10">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Abc"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5"
+                android:minLines="1"
+                android:text="@string/shopdetails"
+                android:textSize="@dimen/_10" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

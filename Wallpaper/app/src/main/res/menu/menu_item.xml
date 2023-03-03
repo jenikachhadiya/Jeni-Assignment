@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/like"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="Liked Wallpaper"/>
+
+        <item
+            android:id="@+id/auto"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="Auto Wallpaper"/>
+        <item
+            android:id="@+id/removeads"
+            android:icon="@drawable/ic_baseline_font_download_off_24"
+            android:title="Remove Ads"/>
+
+        <item
+            android:id="@+id/nofi"
+            android:icon="@drawable/ic_baseline_circle_notifications_24"
+            android:title="Notification "/>
+        <item
+            android:id="@+id/pp"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="Privacy Policy"/>
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/rating"
+            android:title="Rate Us"/>
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share"/>
+    </group>
+
+
+</menu>

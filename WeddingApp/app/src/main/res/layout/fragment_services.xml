@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_servicesbackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150dp"
+        android:foreground="@color/services_back"
+        android:scaleType="fitXY"
+        android:src="@drawable/background_mainactivityimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/services_recyclerview_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/iv_servicesbackground"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/background_cov"
+        tools:listitem="@layout/services_custom_layout" />
+
+
+</RelativeLayout>

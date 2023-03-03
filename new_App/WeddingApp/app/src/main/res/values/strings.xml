@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Wedding</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_bride">THE BRIDE</string>
+    <string name="_8000">$8000</string>
+    <string name="umang">umang</string>
+    <string name="paris">Paris</string>
+    <string name="_4_2">4.2</string>
+    <string name="wedding_dress">Wedding Dress</string>
+    <string name="search_here">Search Here</string>
+    <string name="message">Message</string>
+    <string name="_home">Home</string>
+    <string name="_services">Services</string>
+    <string name="_budget">Budget</string>
+    <string name="_chat">Chat</string>
+    <string name="_profile">Profile</string>
+    <string name="_select_date">Select Date</string>
+    <string name="city">City</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full name</string>
+    <string name="wedding_hall">Wedding Hall</string>
+    <string name="settings">Settings</string>
+    <string name="notification">Notification</string>
+    <string name="change_password">Change Password</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="refer_friend">Refer Friend</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="add_your_budget">Add your budget</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="register_for_now">Register for now</string>
+    <string name="register_to_continue_with_n_wedding">Register to continue with\n wedding</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="cloths">Cloths</string>
+    <string name="Tv">Tv</string>
+    <string name="Shirts">Shirts</string>
+    <string name="Watch">Watch</string>
+    <string name="Shoes">Shoes</string>
+    <string name="Leptop">Leptop</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Car">Car</string>
+    <string name="Medicines">Medicines</string>
+    <string name="Furniture">Furniture</string>
+    <string name="_Shirts_image">https://4.imimg.com/data4/OX/VM/MY-35263749/men-s-casual-shirt-500x500.jpg</string>
+    <string name="_Watch_Images">https://m.media-amazon.com/images/I/61+1sHWyIzL._AC_UL1001_.jpg</string>
+    <string name="_Shoes_image">https://www.crocodile-bag.com/wp-content/uploads/2022/10/White-Leather-Shoes.jpg</string>
+    <string name="_Leptop_image">https://c.s-microsoft.com/en-us/CMSImages/Surfcae_LaptopFamily_Hero_Poster_1920_Fall22.jpg?version=485cfabf-aff4-f61a-b4c3-f05c80bd8229</string>
+    <string name="_Mobile_images">https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-hero-220907-geo_Full-Bleed-Image.jpg.large.jpg</string>
+    <string name="_CAR_Imges">https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Verna/Exterior/pc/March/Hyundai_Verna_Exterior_top_PC_1600x580.jpg</string>
+    <string name="_Medicines_Image">https://firstaidforlife.org.uk/wp-content/uploads/2018/03/poisoning-pill-bottle.jpg</string>
+    <string name="_Furniture_Images">https://assets.architecturaldigest.in/photos/60eecfc65260d592f50edbc5/master/w_2953,h_1586,c_limit/Italian-luxury-furniture-Minotti2.jpg</string>
+    <string name="_Wshing">Wshing</string>
+    <string name="_Freezer"> Freezer</string>
+    <string name="_Ac">Ac</string>
+    <string name="_Mobile">Mobile</string>
+    <string name="_Computer">Computer</string>
+    <string name="_Amiras_Restaurant">Amiras Restaurant</string>
+    <string name="_Surbhi_Restaurant">Surbhi Restaurant</string>
+    <string name="_Rajwadi_Restaurant">Rajwadi Restaurant</string>
+    <string name="_Patel_Restaurant">Patel Restaurant</string>
+    <string name="_Muridher_Restaurant">Muridher Restaurant</string>
+
+    <string name="_Wshing_Image">https://www.businessinsider.in/photo/88535108/large-capacity-fully-automatic-washing-machine.jpg</string>
+    <string name="_Freeezer_Image">https://reviewed-com-res.cloudinary.com/image/fetch/s--fTjPhyEJ--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1594156924812/Fridge-Tips-hero.jpg</string>
+    <string name="_Ac_Image">https://os-wordpress-media.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/11/24212247/Air-Conditioner-Buying-Guide.jpg</string>
+    <string name="_Mobile_Images">https://2672686a4cf38e8c2458-2712e00ea34e3076747650c92426bbb5.ssl.cf1.rackcdn.com/00Extras_web2x-1602560776838.jpg</string>
+    <string name="_Computer_Images">https://cdn.windowsreport.com/wp-content/uploads/2018/05/Personal-computer.jpg</string>
+    <string name="_Amiras_Restaurant_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_Surbhi_Restaurant_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_Rajwadi_Restaurant_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_Patel_Restaurant_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_Muridher_Restaurant_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_Pizza_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_Burger_images">https://static.fanpage.it/wp-content/uploads/sites/22/2021/09/beef-burger.jpg</string>
+    <string name="_Sandwich_iamges">https://img-global.cpcdn.com/recipes/f7da3dff291206ab/1200x630cq70/photo.jpg</string>
+    <string name="_Amiras_iamges">https://upload.wikimedia.org/wikipedia/commons/f/fe/Abbasi_Hotel.jpg</string>
+    <string name="_Dosha_images">https://wallpaperaccess.com/full/6340449.jpg</string>
+    <string name="_Powbhaji_images">https://i0.wp.com/s3.ap-south-1.amazonaws.com/images.salonyscookbook.com/pav-bhaji-recipe/pav-bhaji-recipe13.jpg?w=1200</string>
+    <string name="_Sale_Banner_images">https://static.vecteezy.com/system/resources/previews/003/692/287/original/big-sale-discount-promotion-banner-template-with-blank-product-podium-scene-graphic-free-vector.jpg</string>
+    <string name="_Shoes_images">https://img.freepik.com/free-vector/sale-banner-with-product-description_1361-1333.jpg?w=2000</string>
+    <string name="_Watch_images">https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Shop-Products-Social-Media-Banner-Design-Template-scaled.jpg</string>
+    <string name="_Beatuy_Natural">https://images.remotehub.com/d42c62669a7711eb91397e038280fee0/original_thumb/ec1eb042.jpg?version=1618112516</string>
+    <string name="_2_5">(2.5)</string>
+
+    <string name="kaju_paneer_sabji">kaju paneer sabji</string>
+    <string name="_10">$10</string>
+    <string name="_Surbhi">Shop No 11 to 15, Ground Floor and 108 to 111, First Floor, Jyoti Business Center, Varachha Road, Nana Varaccha, Surat - 395006</string>
+    <string name="_amiras">galaxy_point_surat_kamrej_hwy_bhagavan_nagar_sarthana_jakat_naka_sarthi_society_nana_varachha_surat_gujarat_395006</string>
+    <string name="_Rajwadi">27, Pujan Plaza, BRTS Canal Road, Puna Patiya, Surat - 395010</string>
+    <string name="_Patel">1st Floor, Rajkot Highway, Junagadh Ho, Junagadh - 362001</string>
+    <string name="_Murlidhar">1st Floor, Avani Avenue, Nikol Cross Road, Naroda, Ahmedabad - 382330</string>
+    <string name="addres">galaxy_point_surat_kamrej_hwy_bhagavan_nagar_sarthana_jakat_naka_sarthi_society_nana_varachha_surat_gujarat_395006</string>
+    <string name="add">Add</string>
+    <string name="_0_item">0 Item</string>
+    <string name="_0_0">$0.0</string>
+    <string name="password">password</string>
+
+
+</resources>

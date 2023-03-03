@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@dimen/_10"
+    android:layout_marginLeft="@dimen/_80"
+    android:layout_marginRight="@dimen/_5"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_alignRight="@id/iv_profile"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="59dp"
+        android:background="@drawable/item_right"
+        android:padding="@dimen/_10"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_mess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camara"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tv_send_time"
+            android:textSize="@dimen/_8"
+            android:text="@string/_12_30am"
+            android:layout_marginTop="@dimen/_5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+    <!--<LinearLayout
+        android:background="@drawable/item_left"
+        android:orientation="vertical"
+        android:padding="@dimen/_10"
+        android:paddingTop="@dimen/_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_messleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camara"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tv_rec_time"
+            android:textSize="@dimen/_8"
+            android:text="@string/_12_30am"
+            android:layout_marginTop="@dimen/_5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="@dimen/_40"
+        android:layout_height="@dimen/_40"
+        android:src="@drawable/img"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/_10"
+        android:layout_marginRight="@dimen/_10"
+        android:scaleType="centerCrop"
+        app:civ_border_width="@dimen/_1"
+        app:civ_circle_background_color="@color/white_tra"
+        app:civ_border_color="@color/gry_tra" />
+
+
+</RelativeLayout>

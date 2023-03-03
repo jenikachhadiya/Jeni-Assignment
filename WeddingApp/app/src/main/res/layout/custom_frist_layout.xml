@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_10dp"
+    app:cardElevation="@dimen/_10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4dp"
+        android:layout_marginTop="@dimen/_4dp"
+        android:layout_marginRight="@dimen/_4dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="@dimen/_140dp"
+            android:layout_height="@dimen/_100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wedding_image"
+            app:shapeAppearance="@style/CornerCut" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_5dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:ellipsize="end"
+                android:fontFamily="@font/inter_medium"
+                android:text="@string/umang"
+                android:textColor="@color/name_text"
+                android:textSize="@dimen/_13sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/_6dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="@string/paris"
+                android:textColor="@color/contry_text"
+                android:textSize="@dimen/_11sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/_8000"
+                    android:textColor="@color/price_text"
+                    android:textSize="@dimen/_13sp" />
+
+
+                <ImageView
+                    android:id="@+id/iv_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_48dp"
+                    android:src="@drawable/ic_star" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/retting_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_2dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/_4_2"
+                    android:textColor="@color/name_text"
+                    android:textSize="@dimen/_11sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

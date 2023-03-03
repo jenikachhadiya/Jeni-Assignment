@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">task</string>
+    <string name="camara">Camara</string>
+    <string name="dec">Decription</string>
+    <string name="_1">1</string>
+    <string name="add">ADD</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="abc">ABc</string>
+    <string name="price">Price</string>
+    <string name="shopdetails">Shopdetails</string>
+    <string name="item">Item</string>
+    <string name="viewcart">ViewCart</string>
+    <string name="extra_charges_may_apply">Extra Charges May Apply</string>
+</resources>

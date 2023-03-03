@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_3"
+    app:cardElevation="@dimen/_5"
+    app:cardUseCompatPadding="true">
+    <ImageView
+        android:id="@+id/iv_image"
+        android:src="@color/background_tra"
+        android:layout_width="@dimen/_120"
+        android:layout_height="@dimen/_120"/>
+
+</com.google.android.material.card.MaterialCardView>

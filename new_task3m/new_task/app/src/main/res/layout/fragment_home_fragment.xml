@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:id="@+id/coordinator"
+    tools:context=".fragment.HomeFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_tra"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5"
+                android:background="@drawable/search_bg"
+                android:drawableStart="@drawable/ic_baseline_search_24"
+                android:drawablePadding="@dimen/_15"
+                android:drawableTint="@color/background_tra"
+                android:hint="@string/search"
+                android:padding="@dimen/_15" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/back_relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <ViewAnimator
+                android:id="@+id/view_animator_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--0-->
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_layout"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:padding="@dimen/_10">
+
+                          <androidx.cardview.widget.CardView
+                              android:layout_width="match_parent"
+                              android:layout_height="200dp"
+                              app:cardBackgroundColor="@color/gry_tra"
+                              app:cardCornerRadius="@dimen/_3"
+                              app:cardElevation="@dimen/_3"
+                              app:cardUseCompatPadding="true">
+
+                              <com.google.android.material.imageview.ShapeableImageView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:src="@color/gry_tra" />
+
+                          </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <include layout="@layout/categories_defalt_layout"/>
+                            <include layout="@layout/categories_defalt_layout"/>
+                            <include layout="@layout/categories_defalt_layout"/>
+                            <include layout="@layout/categories_defalt_layout"/>
+                            <include layout="@layout/categories_defalt_layout"/>
+                            <include layout="@layout/categories_defalt_layout"/>
+                        </LinearLayout>
+                          <LinearLayout
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content">
+                              <include layout="@layout/allfurnitures_default_layout"/>
+                              <include layout="@layout/allfurnitures_default_layout"/>
+                              <include layout="@layout/allfurnitures_default_layout"/>
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:orientation="vertical"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                              <include layout="@layout/defalut_view_layout"/>
+                              <include layout="@layout/defalut_view_layout"/>
+                              <include layout="@layout/defalut_view_layout"/>
+                              <include layout="@layout/defalut_view_layout"/>
+                          </LinearLayout>
+
+
+                      </LinearLayout>
+
+
+                  </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <!--1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10">
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                    <ViewAnimator
+                        android:id="@+id/viewAnimator"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp">
+
+                        <!--0-->
+                        <com.facebook.shimmer.ShimmerFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                app:cardBackgroundColor="@color/gry_tra"
+                                app:cardCornerRadius="@dimen/_3"
+                                app:cardElevation="@dimen/_3"
+                                app:cardUseCompatPadding="true">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@color/gry_tra" />
+
+                            </androidx.cardview.widget.CardView>
+
+                        </com.facebook.shimmer.ShimmerFrameLayout>
+                        <!--1-->
+                        <com.smarteist.autoimageslider.SliderView
+                            android:id="@+id/slider"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_5"
+                            app:sliderAnimationDuration="600"
+                            app:sliderAutoCycleDirection="back_and_forth"
+                            app:sliderIndicatorAnimationDuration="600"
+                            app:sliderIndicatorEnabled="true"
+                            app:sliderIndicatorGravity="right|bottom"
+                            app:sliderIndicatorMargin="@dimen/_15"
+                            app:sliderIndicatorMarginBottom="@dimen/_15"
+                            app:sliderIndicatorOrientation="horizontal"
+                            app:sliderIndicatorPadding="@dimen/_3"
+                            app:sliderIndicatorRadius="1.5dp"
+                            app:sliderIndicatorSelectedColor="@color/background_tra"
+                            app:sliderIndicatorUnselectedColor="@color/gry_tra"
+                            app:sliderScrollTimeInSec="1">
+
+                        </com.smarteist.autoimageslider.SliderView>
+                        <!--2-->
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white_tra"
+                            android:src="@drawable/nodata" />
+
+
+                    </ViewAnimator>
+
+                       <!-- <ViewAnimator
+                        android:id="@+id/viewAnimator2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">-->
+                        <!--0-->
+                        <!--  <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <include layout="@layout/categories_defalt_layout" />
+                            <include layout="@layout/categories_defalt_layout" />
+                            <include layout="@layout/categories_defalt_layout" />
+                            <include layout="@layout/categories_defalt_layout" />
+                            <include layout="@layout/categories_defalt_layout" />
+                            <include layout="@layout/categories_defalt_layout" />
+
+                        </LinearLayout>-->
+
+                        <!--1-->
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rec_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                     <!-- </ViewAnimator>-->
+
+                    <ViewAnimator
+                        android:id="@+id/viewAnimator3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <!--0-->
+                        <com.facebook.shimmer.ShimmerFrameLayout
+                            android:id="@+id/shimmer_layout2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <include layout="@layout/allfurnitures_default_layout" />
+
+                            <include layout="@layout/allfurnitures_default_layout" />
+
+                            <include layout="@layout/allfurnitures_default_layout" />
+                        </LinearLayout>
+                        </com.facebook.shimmer.ShimmerFrameLayout>
+
+                        <!--1-->
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rec_view2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </ViewAnimator>
+
+                    <ViewAnimator
+                        android:id="@+id/rec_viewAnimator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <!--0-->
+                        <com.facebook.shimmer.ShimmerFrameLayout
+                            android:id="@+id/shimmer_layout3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                            <include layout="@layout/defalut_view_layout" />
+                        </LinearLayout>
+                        </com.facebook.shimmer.ShimmerFrameLayout>
+
+                        <!--1-->
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rec_view3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"/>
+
+
+                       <!-- &lt;!&ndash;2&ndash;&gt;
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_200d"
+                            android:src="@drawable/nodata" />-->
+
+                    </ViewAnimator>
+                        </LinearLayout>
+                   </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+                <!--2-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/white_tra"
+                    android:src="@drawable/nodata">
+
+                </ImageView>
+
+
+            </ViewAnimator>
+
+        </RelativeLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

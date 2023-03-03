@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_plus"
+        android:text="@string/plus"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_counter"
+        android:text="@string/_1"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20"
+        android:layout_marginLeft="@dimen/_5d"
+        android:layout_marginRight="@dimen/_5"
+        android:layout_toEndOf="@id/tv_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_minus"
+        android:text="@string/minus"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20"
+        android:layout_toEndOf="@id/tv_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

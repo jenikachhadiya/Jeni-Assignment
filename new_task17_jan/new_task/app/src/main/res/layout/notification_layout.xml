@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notification_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5d">
+
+    <!-- <com.google.android.material.card.MaterialCardView
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/_60"
+         android:elevation="@dimen/_5"
+         app:cardBackgroundColor="@color/background_tra"
+         app:cardCornerRadius="@dimen/_5"
+         app:cardUseCompatPadding="true">
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center_vertical"
+             android:padding="@dimen/_5">
+
+             <com.google.android.material.textview.MaterialTextView
+                 android:id="@+id/itemCount"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="@dimen/_4d"
+                 android:layout_marginTop="@dimen/_2"
+                 android:drawableLeft="@drawable/ic_baseline_notifications_24"
+                 android:drawableTint="@color/white"
+                 android:drawablePadding="@dimen/_5d"
+                 android:textColor="@android:color/white"
+                 android:textSize="14sp"
+                 android:textStyle="bold" />
+
+             &lt;!&ndash;<View
+                 android:id="@+id/view"
+                 android:layout_width="@dimen/_2"
+                 android:layout_height="@dimen/_25"
+                 android:layout_marginLeft="@dimen/_5"
+                 android:layout_toEndOf="@+id/itemCount"
+                 android:background="@color/white" />&ndash;&gt;
+
+             <com.google.android.material.textview.MaterialTextView
+                 android:id="@+id/message"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:padding="@dimen/_5d"
+                 android:layout_toEndOf="@id/itemCount"
+                 android:drawableTint="@color/white"
+                 android:text="@string/yes_i_am_here_hiiii"
+                 android:textColor="@android:color/white"
+                 android:textSize="14sp"
+                 android:textStyle="bold"
+                 style="@style/TextAppearance.Compat.Notification.Title"/>
+
+             <com.google.android.material.textview.MaterialTextView
+                 android:id="@+id/title"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerVertical="true"
+                 android:layout_marginRight="@dimen/_5d"
+                 android:text="@string/task"
+                 android:textColor="@android:color/white"
+                 android:textSize="@dimen/_10"
+                 android:textStyle="bold"
+                 style="@style/TextAppearance.Compat.Notification.Title"/>
+
+         </RelativeLayout>
+
+     </com.google.android.material.card.MaterialCardView>-->
+
+
+    <!--
+            &lt;!&ndash;<View
+            android:id="@+id/view"
+            android:layout_width="@dimen/_2"
+            android:layout_height="@dimen/_25"
+            android:layout_marginLeft="@dimen/_5"
+            android:layout_toEndOf="@+id/itemCount"
+            android:background="@color/white" />&ndash;&gt;-->
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5d"
+        android:text="@string/task"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/message"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:drawableTint="@color/white"
+        android:padding="@dimen/_5d"
+        android:text="@string/yes_i_am_here_hiiii"
+        android:textColor="@android:color/background_dark"
+
+        android:textSize="@dimen/_10"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4d"
+        android:layout_marginTop="@dimen/_2"
+        android:drawablePadding="@dimen/_5d"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/ic_baseline_notifications_24"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

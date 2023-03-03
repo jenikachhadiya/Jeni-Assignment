@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DefaltFragment">
+
+
+    <TextView
+        android:id="@+id/tv_defalt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="DefaltFragment"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/_17s"
+        android:gravity="center"
+        android:transitionName="1"/>
+
+</FrameLayout>

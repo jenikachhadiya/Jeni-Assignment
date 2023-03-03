@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <stroke android:color="@color/gry_tra" android:width="@dimen/_1"/>
+    <gradient
+       android:startColor="@color/sendbar"
+        android:endColor="@color/sendbar"/>
+    <corners android:topLeftRadius="@dimen/_5"
+        android:topRightRadius="@dimen/_5"
+        android:bottomRightRadius="@dimen/_5"
+        android:bottomLeftRadius="@dimen/_5"/>
+    <padding android:top="@dimen/_5"
+        android:right="@dimen/_5"
+        android:left="@dimen/_5"
+        android:bottom="@dimen/_5"/>
+
+</shape>

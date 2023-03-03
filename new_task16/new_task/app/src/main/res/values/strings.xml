@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">new_task</string>
+
+    <string-array name="Gender">
+        <item>Female</item>
+        <item>male</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="hello">Hello</string>
+    <string name="home">Home</string>
+    <string name="read_data">Read Data</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="Bag">Bag</string>
+    <string name="SplashScreen">SPLASHSCREEN</string>
+    <string name="HN">Enter Name</string>
+    <string name="HE">Enter Email</string>
+    <string name="Hp">Enter Password</string>
+    <string name="HCP">Enter Comfirm Password</string>
+    <string name="Gender">Gender</string>
+    <string name="Signup">SignUp</string>
+    <string name="Signin">SignIn</string>
+    <string name="Do_not_Acc">Don\'t have an account?</string>
+    <string name="logout">Logout</string>
+    <string name="enter_valid_password">Enter valid password</string>
+    <string name="enter_name">Enter name</string>
+    <string name="name">Name</string>
+    <string name="sheredpref">SharedPrefrence</string>
+    <string name="Db">db</string>
+    <string name="homefregment">Home</string>
+    <string name="profilefregment">Profile</string>
+    <string name="settingfregment">Setting</string>
+    <string name="favfregment">Favorite</string>
+    <string name="bagfregment">Bag</string>
+    <string name="chatFregment">Chat</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="email_not_valid">Email Not Valid</string>
+    <string name="password_not_valid">Password Not Valid</string>
+    <string name="email_is_not_registered">Email is not Registered</string>
+    <string name="done_signIn">Done SignIn</string>
+    <string name="R">r</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="comfirm_password">Comfirm Password</string>
+    <string name="enter_comfirm_password">Enter Comfirm Password</string>
+    <string name="select_one">Selcet Any One</string>
+    <string name="please_uplode_image">Please Uplode Image</string>
+    <string name="user_email_Already_register">"User Email Already Register "</string>
+    <string name="account_create_succefully">Account Create Succefully</string>
+    <string name="gallary">Gallary</string>
+    <string name="camara">Camara</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="Data">data</string>
+    <string name="error">Error</string>
+    <string name="remember_me">Remember me</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="is_login">islogin</string>
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="done">Done</string>
+    <string name="enter_same_password">Enter Same Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="task">Task</string>
+    <string name="welcome_back_to_myapp">Welcome back to Myapp</string>
+    <string name="signin">SIGNIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="item">Item </string>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="item5">Item5</string>
+    <string name="search">Search</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="table">Table</string>
+    <string name="tvfurnitures">"Tv "</string>
+    <string name="sofa">Sofa</string>
+    <string name="accent_chairs">Accent Chairs</string>
+    <string name="furniture">Furniture</string>
+    <string name="table_wood_pine">Table Wood Pine</string>
+    <string name="livingRoom">Living Room</string>
+    <string name="Office">Office </string>
+    <string name="homeFurniture">Home Furniture</string>
+    <string name="badRoom">BadRoom</string>
+    <string name="mall">Mall</string>
+    <string name="shopdetails">shopDetails</string>
+    <string name="price">123</string>
+    <string name="quantity">Quantity</string>
+    <string name="dec">Dec</string>
+    <string name="plus">+</string>
+    <string name="tital">Tital</string>
+    <string name="Des">Description</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addtobag">AddToBag</string>
+    <string name="_1">1</string>
+    <string name="minus">-</string>
+    <string name="add">Add</string>
+    <string name="abc">Abc</string>
+    <string name="viewcart">ViewCart</string>
+    <string name="extra_charges_may_apply">Extra charges may apply</string>
+    <string name="object_image">object_image</string>
+    <string name="yes_i_am_here_hiiii">Yes I am Here,Hiiii</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="subscribe">SubScribe</string>
+    <string name="unsubscribe">UnSubScribe</string>
+    <string name="chatList">ChatList</string>
+    <string name="enter">Enter</string>
+    <string name="type_something">Type Something.....</string>
+    <string name="user">User</string>
+
+
+</resources>

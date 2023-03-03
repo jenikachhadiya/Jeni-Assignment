@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_3"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/_3"
+    android:id="@+id/shopList_default_layout">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_5"
+            app:cardElevation="@dimen/_5"
+            app:cardUseCompatPadding="true">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/_90"
+                android:layout_height="@dimen/_100"
+                android:src="@color/gry_tra" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_5d"
+            android:layout_marginTop="@dimen/_7">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20"
+                android:background="@color/gry_tra"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/_80"
+                android:layout_height="@dimen/_13"
+                android:background="@color/gry_tra"
+                android:layout_marginTop="@dimen/_5"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RatingBar
+                    android:id="@+id/rate"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5"
+                    android:rating="5"
+                    android:progressTint="@color/gry_tra" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/_60"
+                android:layout_height="@dimen/_10"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/_7"
+                android:background="@color/gry_tra" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/_40"
+                android:layout_height="@dimen/_7"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/_7"
+                android:background="@color/gry_tra" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

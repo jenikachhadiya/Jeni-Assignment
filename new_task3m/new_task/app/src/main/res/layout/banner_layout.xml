@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ads:cardElevation="@dimen/_3"
+    ads:cardCornerRadius="@dimen/_5"
+    ads:cardUseCompatPadding="true"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:src="@color/sendbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130d"/>
+
+</com.google.android.material.card.MaterialCardView>

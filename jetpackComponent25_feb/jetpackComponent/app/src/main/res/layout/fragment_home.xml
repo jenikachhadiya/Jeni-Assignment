@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    tools:context=".Fragments.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300">
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_fragment"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15s"
+            android:gravity="center"/>
+    </FrameLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

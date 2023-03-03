@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10"
+    android:background="@color/background_tra"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5"
+        app:cardElevation="@dimen/_3"
+        app:cardUseCompatPadding="true">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_bar"
+            app:queryHint="@string/search"
+            app:iconifiedByDefault="false"
+            android:layout_marginHorizontal="@dimen/_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200"
+        android:layout_below="@+id/card_search"
+        app:cardCornerRadius="@dimen/_5"
+        app:cardElevation="@dimen/_3"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/material_design">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200"
+            android:layout_centerInParent="true"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorEnabled="true"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="@dimen/_15"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="@dimen/_3"
+            app:sliderIndicatorRadius="1.5dp"
+            app:sliderIndicatorSelectedColor="@color/background_tra"
+            app:sliderIndicatorUnselectedColor="@color/gry_tra"
+           app:sliderIndicatorMarginBottom="@dimen/_15"
+            app:sliderScrollTimeInSec="1" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_view"
+        android:layout_below="@id/material_design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

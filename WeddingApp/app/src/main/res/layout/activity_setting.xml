@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.activitys.SettingActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150dp"
+        android:foreground="@color/setting_back"
+        android:scaleType="fitXY"
+        android:src="@drawable/background_mainactivityimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_14dp"
+        android:layout_marginTop="@dimen/_80dp"
+        android:src="@drawable/ic_arrow_setting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/iv_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="@string/settings"
+        android:textColor="@color/home_text"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_back"
+        app:layout_constraintStart_toEndOf="@+id/btn_back"
+        app:layout_constraintTop_toTopOf="@+id/btn_back"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/background_cov"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_background">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/notification"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_notification"
+            app:layout_constraintStart_toEndOf="@+id/iv_notification"
+            app:layout_constraintTop_toTopOf="@+id/iv_notification" />
+
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_notification" />
+
+
+        <ImageView
+            android:id="@+id/iv_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_15dp"
+            android:src="@drawable/ic_notification_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_line1"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:src="@drawable/ic_line_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_notification" />
+
+        <ImageView
+            android:id="@+id/iv_password_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:src="@drawable/ic_password_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line1" />
+
+        <ImageView
+            android:id="@+id/iv_line2"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:src="@drawable/ic_line_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_password_setting" />
+
+        <ImageView
+            android:id="@+id/ic_privacy_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:src="@drawable/ic_privacy_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line2" />
+
+        <ImageView
+            android:id="@+id/iv_line3"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:src="@drawable/ic_line_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ic_privacy_icon" />
+
+        <ImageView
+            android:id="@+id/iv_refer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:src="@drawable/ic_refer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line3" />
+
+        <ImageView
+            android:id="@+id/iv_line4"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:src="@drawable/ic_line_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_refer" />
+
+        <ImageView
+            android:id="@+id/iv_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:src="@drawable/ic_terms_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line4" />
+
+        <ImageView
+            android:id="@+id/iv_line5"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:src="@drawable/ic_line_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_terms" />
+
+        <ImageView
+            android:id="@+id/iv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_18dp"
+            android:src="@drawable/ic_logout_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line5" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/change_password"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_password_setting"
+            app:layout_constraintStart_toEndOf="@+id/iv_password_setting"
+            app:layout_constraintTop_toTopOf="@+id/iv_password_setting" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_26dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toEndOf="@+id/ic_privacy_icon"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line2" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_refer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_26dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/refer_friend"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toEndOf="@+id/iv_refer"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line3" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_26dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/terms_and_conditions"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toEndOf="@+id/iv_terms"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line4" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_26dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/logout"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintStart_toEndOf="@+id/iv_logout"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line5" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_42dp"
+            android:layout_marginEnd="@dimen/_45dp"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:background="@drawable/ic_delete"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/delete_account"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_16sp"
+            app:backgroundTint="@color/message_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

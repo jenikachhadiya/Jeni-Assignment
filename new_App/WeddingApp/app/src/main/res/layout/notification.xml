@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="@dimen/_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:scaleType="fitXY"
+            android:src="@drawable/notification"
+            android:layout_width="@dimen/_70dp"
+            android:layout_height="@dimen/_70dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title"
+            android:text="Title"
+            android:textColor="@color/name_text"
+            android:fontFamily="@font/inter_medium"
+            android:layout_toRightOf="@id/app_logo"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_message"
+            android:text="This is description"
+            android:layout_toRightOf="@id/app_logo"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_below="@id/tv_title"
+            android:textColor="@color/name_text"
+            android:fontFamily="@font/inner_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

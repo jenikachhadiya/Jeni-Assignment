@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="Home"/>
+
+    <item android:id="@+id/fav"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="Favorite"/>
+
+  <!--  <item android:id="@+id/bag"
+        android:icon="@drawable/ic_outline_shopping_bag_24"
+        android:title="Bag"/>-->
+    <item android:id="@+id/chat"
+        android:icon="@drawable/bubblechat"
+        android:title="Chat"/>
+
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/ic_outline_person_24"
+        android:title="Profile"/>
+
+    <item android:id="@+id/setting"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="Setting"/>
+
+
+
+
+
+
+
+</menu>

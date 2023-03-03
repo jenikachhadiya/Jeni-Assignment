@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/snackbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/background_tra"
+        app:cardCornerRadius="@dimen/_5"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_5">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/itemCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4d"
+                android:layout_marginTop="@dimen/_4d"
+                android:text="@string/item"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/_2"
+                android:layout_height="@dimen/_25"
+                android:layout_marginLeft="@dimen/_5"
+                android:layout_toEndOf="@+id/itemCount"
+                android:background="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5"
+                android:layout_marginTop="@dimen/_4d"
+                android:layout_toEndOf="@id/view"
+                android:drawableTint="@color/white"
+                android:text="@string/price"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/viewCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_5d"
+                android:text="@string/viewcart"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:text="@string/extra_charges_may_apply"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

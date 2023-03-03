@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_250dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_7dp"
+    app:cardElevation="@dimen/_3dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_4dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="@dimen/_232dp"
+            android:layout_height="@dimen/_125dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/wedding_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/CornerCut" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/Tv"
+            android:textColor="@color/name_text"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv_thumbnail"
+            app:layout_constraintTop_toBottomOf="@+id/iv_thumbnail" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="@+id/retting_text"
+            app:layout_constraintEnd_toStartOf="@+id/retting_text"
+            app:layout_constraintTop_toTopOf="@+id/retting_text" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/retting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_8dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/_4_2"
+            android:textColor="@color/name_text"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_title" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

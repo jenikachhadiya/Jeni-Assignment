@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#3303DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash_text">#322B55</color>
+    <color name="name_text">#1B1B1B</color>
+    <color name="contry_text">#6F6F6F</color>
+    <color name="price_text">#FF7D76</color>
+    <color name="rating_text">#FFB82F</color>
+    <color name="home_text">#FFFFFF</color>
+    <color name="services_name">#A1A1A1</color>
+    <color name="background_color">#979191</color>
+    <color name="message_text">#FF7D76</color>
+    <color name="services_image">#73A9D5</color>
+    <color name="budget_back">#CCE77C75</color>
+    <color name="chat_back">#CC40A5C1</color>
+    <color name="services_back">#CC69ACC7</color>
+    <color name="profile_back">#CCE0746B</color>
+    <color name="bottom_navigation">#FF7D76</color>
+    <color name="setting_back">#CCB9D0EA</color>
+    <color name="budget_icon">#FF7D76</color>
+    <color name="search_icon">#FF7D76</color>
+    <color name="box_storak_profile">#A1A1A1</color>
+    <color name="hint_profile">#A1A1A1</color>
+    <color name="titlewedding_text">#1B1B1B</color>
+    <color name="home_icon">#CCDB7C5A</color>
+    <color name="hotel_desc">#615858</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_light">#EFFDF0</color>
+    <color name="light_8">#14000000</color>
+    <color name="red">#B85151</color>
+    <color name="sender_back">#6677EF</color>
+    <color name="recver_back">#ECEEFE</color>
+    <color name="user_name_message">#5E6DE5</color>
+    <color name="user_name_message2">#6777EF</color>
+    <color name="enter_typing_message">#ECEEFE</color>
+    <color name="send_button_background">#6775DF</color>
+
+
+</resources>
